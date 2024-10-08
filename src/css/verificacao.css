@@ -1,8 +1,4 @@
-*{
-    font-family: poppins;
-}
-
-
+@import url(verificacao.css);
 .teste{
     display: flex;
     justify-content: center;
@@ -68,3 +64,74 @@
     background-color: #cf4647; /* Botão vermelho */
     color: white;
   }
+
+.botao-entrar{
+  display: flex;
+  width: 362px;
+  height: 60px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid #FFF;
+  background-color: #CF4647;
+  color: #FFF;
+  color: #FFF;
+}
+
+.frase-botao-entrar{
+  color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 0%; /* 0px */
+}
+
+.restaurant{
+  height:60px;
+  padding:10px;
+  justify-content:center;
+  align-items: center;
+  gap:10px;
+  align-self: strecth;
+  border-radius: 10px;
+  background: #FE8C10;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.volunteer{
+  height:60px;
+  padding:10px;
+  gap:10px;
+  align-self: strecth;
+  border-radius: 10px;
+  background: #CF4647;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.mensagem-cadastro{
+  width: 847px;
+  color: #CF4647;
+  text-align:center;
+  font-family:Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 2.25px;
+}
+
+.buttons{
+  display:flex;
+  justify-content: center;
+}
+
+.alinhar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Empilha os itens verticalmente */
+}
