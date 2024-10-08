@@ -1,0 +1,70 @@
+*{
+    font-family: poppins;
+}
+
+
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.137);
+}
+
+.seta-voltar{
+    width: 13px;
+    height: 20px;
+    color: var(--color-red);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-side {
+    background-color: #cf4647;
+    color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .right-side {
+    background-color: #fff;
+    width: 60%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1, h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .restaurant {
+    background-color: #ff9900; /* Botão laranja */
+  }
+  
+  .volunteer {
+    background-color: #cf4647; /* Botão vermelho */
+    color: white;
+  }
