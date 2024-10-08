@@ -44,6 +44,13 @@
     padding-inline: 2rem;
 }
 
+.nossosonho__topicos p{
+    margin-bottom: -1rem;
+    font-size: var(--font-tres);
+    font-weight: 800;
+    color: var(--color-red);
+}
+
 .nossosonho__finale{
     text-align: center;
 }
