@@ -1,5 +1,6 @@
 @import url(header.css);
 @import url(verificacao.css);
+@import url(login.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -26,6 +27,7 @@ a {
     --color-white: #fff;
     --color-grey: #A4A4A4;
 
+    --font-menor: .6em;
     --font-um: .8em;
     --font-dois: 1em;
     --font-details: 1.2em;
@@ -61,3 +63,22 @@ a {
 .nav__btn_default:hover{
     scale: 1.05;
 }
+
+/* ---- BOTÃO VOLTAR */
+.seta__voltar{
+    width: 25vw;
+    padding: 1.5rem;
+    display: flex;
+    font-size: var(--font-tres);
+    filter: drop-shadow(0 2px 1px rgba(243, 242, 242, 0.322));
+}
+.seta__voltar a{
+    color: var(--color-bg);
+    transition: .5s;
+}
+
+.seta__voltar a:hover {
+    font-size: 1.6rem;
+    color: var(--color-white);
+}
+/* --------FIM SETA VOLTAR-------- */

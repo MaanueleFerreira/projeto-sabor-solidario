@@ -1,0 +1,189 @@
+.bg__fundo {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-red);
+    z-index: -3;
+}
+
+aside{
+    width: 27vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside__logo_marca img{
+    width: 8rem;
+    margin-block: 2.5rem;
+}
+
+.apresentation__chamada {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.aside__title{
+    font-size:  var(--font-seis);
+    text-align: center;
+    color: var(--color-white);
+    font-weight: 800;
+    line-height: 1.4;
+    letter-spacing: .02em;
+    margin-bottom: 2rem;
+}
+
+.aside__details{
+    color: var(--color-white);
+    font-size: var(--font-um);
+}
+
+.aside__details span{
+    font-weight: 600;
+    transition: .5s;
+    
+}
+
+.aside__details span:hover{
+    font-size: var(--font-details);
+}
+
+.aside__instrucoes{
+    margin-top: .5rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-um);
+    color: var(--color-white);
+    list-style: none;
+}
+
+.aside__chamada_cadastro{
+    flex: 1;   
+    font-size: var(--font-menor); 
+    color: var(--color-bg);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.aside__chamada_cadastro span{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.aside__chamada_cadastro a{
+    color: var(--color-bg);
+}
+
+
+/* ---------- LOGIN DIV - PADRÃO ---------- */
+#login__container{
+    width: 73vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--color-white);
+    border: 2px solid white;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 0px 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+/* ---------- LOGIN DIV - PADRÃO ---------- */
+
+.title__container {
+    width: 72vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.title__input{
+    font-size: var(--font-quatro);
+    color: var(--color-brown);
+}
+
+.details__title{
+    font-size: var(--font-um);
+}
+
+.details__title span{
+    font-weight: 600;
+}
+
+/* -------------INPUTS LOGIN------------ */
+.input__container{
+
+    width: 72vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.input__login{
+    width: 50%;
+    height: 25%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input:focus {
+    outline: none;
+    scale: 1.01;
+}
+
+label{
+    font-size: var(--font-dois);
+    align-self: start;
+    padding-block: .3rem;
+}
+
+label span {
+    font-weight: 600;
+}
+input{
+    height: 50%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid var(--color-red);
+    background-color: none;
+}
+/* ------------- FIM INPUTS LOGIN------------ */
+
+/* ------------- BOTAO PADRAO LOGIIIIIN ------------- */
+.btn__login{
+    align-self: center;
+    width: 50%;
+    height: 3rem;
+    background-color: var(--color-red);
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.2);
+    transition: .5s;
+
+}
+
+.btn__login a{
+    color: var(--color-white);
+    font-size: var(--font-details);
+    font-weight: 700;
+}
+
+.btn__login:hover{
+    scale: 1.05;
+}
+
+
+
