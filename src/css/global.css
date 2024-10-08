@@ -33,6 +33,7 @@ a {
     --font-quatro: 2em;
     --font-cinco: 2.5em;
     --font-seis: 3em;
+    --font-sete: 3.2em;
     
 }
 
@@ -49,9 +50,14 @@ a {
     border: none;
     font-size: var(--font-um);
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.137);
+    transition: .5s;
 }
 
 .nav__btn_default a {
     color: var(--color-white);
     font-weight: 600;
+}
+
+.nav__btn_default:hover{
+    scale: 1.05;
 }
