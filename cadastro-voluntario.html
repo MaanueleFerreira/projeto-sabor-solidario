@@ -68,51 +68,69 @@
         </aside>
     
         <section id="login__container">
-            <div class="title__container">
-                <h3 class="title__input"> Faça o seu cadastro agora </h3>
-                <p class="details__title"> <span>Ao lado</span> você encontra instruções em caso de dúvida.</p>
+            <div id="cadastro__title">
+                <h3 class="title__input"> Faça o seu <span class="destaque__red">cadastro</span> agora. </h3>
+                <p class="details__title"> <span class="destaque__red">Ao lado</span> você encontra instruções em caso de dúvida.</p>
             </div>
     
-            <div class="input__container">
-                <div class="input__cadastrar">
-                    <p>Dados pessoais</p>
-                   
-                    <div class="input__login">
-                        <label for="usuario">Digite seu nome completo<span>*</span> </label>
-                        <input type="text" name="usuario" placeholder="Digite aqui seu e-mail">
+            <div class="input__container_cadastrar">
+                <span class="cadastrar__title">Dados pessoais</span>
+                <div class="input__cadastrar_container">
+                    <div class="container__initial">
+                        <div class="input__cadastrar">
+                            <label for="usuario">Digite seu nome completo<span>*</span> </label>
+                            <input type="text" name="usuario" placeholder="Digite aqui seu e-mail">
+                        </div>
+    
+                        <div class="input__cadastrar">
+                            <label for="telefone"> Digite seu telefone<span>*</span></label>
+                            <input type="number" name="telefone" placeholder="Digite aqui seu telefone">
+                        </div>
+
+                        <div class="input__cadastrar">
+                            <label for="numero"> Digite seu CPF<span>*</span></label>
+                            <input type="number" name="numero" placeholder="Digite aqui seu CPF">
+                        </div>
+    
+                        <div class="input__cadastrar">
+                            <label for="telefone2"> Digite seu telefone<span>*</span></label>
+                            <input type="number" name="telefone2" placeholder="Digite aqui seu telefone">
+                        </div>
                     </div>
 
-                    <div class="input__login">
-                        <label for="numero"> Digite seu CPF<span>*</span></label>
-                        <input type="number" name="numero" placeholder="Digite aqui seu CPF">
-                    </div>
-
-                    <div class="input__login">
-                        <label for="telefone"> Digite seu telefone<span>*</span></label>
-                        <input type="number" name="telefone" placeholder="Digite aqui seu telefone">
-                    </div>
-
-                    <div class="input__login">
-                        <label for="telefone2"> Digite seu telefone<span>*</span></label>
-                        <input type="number" name="telefone2" placeholder="Digite aqui seu telefone">
-                    </div>
-
-                    <div class="input__login">
+                    <div class="input__cadastrar">
                         <label for="imagem"> Insira sua foto<span>*</span></label>
                         <input type="image" name="imagem" placeholder="Insira aqui sua foto">
                     </div>
-
-        
-                    <!-- <div class="input__login">
-                        <label for="password">Digite sua <span>senha</span></label>
-                        <input type="password" name="password" placeholder="Digite sua senha">
-                    </div> -->
-
                 </div>
-                
-    
-
             </div>
+
+            <div class="input__container_cadastrar" id="dados__acesso">
+                <span class="cadastrar__title">Dados de acesso</span>
+
+                <div class="input__dadosacesso_container">
+                    <div class="input__cadastrar">
+                        <label for="email">Digite seu endereço de email<span>*</span> </label>
+                        <input type="email" name="email" placeholder="Digite aqui seu e-mail">
+                    </div>
+
+                    <div class="input__cadastrar">
+                        <label for="senha"> Digite sua senha<span>*</span></label>
+                        <input type="password" name="senha" placeholder="Digite aqui sua senha">
+                    </div>
+
+                    <div class="input__cadastrar">
+                        <label for="email">Confirme seu endereço de email<span>*</span> </label>
+                        <input type="email" name="email" placeholder="Digite aqui seu e-mail">
+                    </div>
+
+                    <div class="input__cadastrar">
+                        <label for="senha"> Confirme sua senha<span>*</span></label>
+                        <input type="password" name="senha" placeholder="Digite aqui sua senha">
+                    </div>
+                </div>
+            </div>
+
     
         </section>
     

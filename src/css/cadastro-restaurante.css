@@ -1,0 +1,11 @@
+#bg__laranja{
+    background-color: var(--color-orange);
+}
+
+#title__laranja{
+   color: var(--color-orange);
+}
+
+#border__laranja{
+    border: 2px solid var(--color-orange);
+}

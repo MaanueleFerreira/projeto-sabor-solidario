@@ -1,0 +1,121 @@
+/* Baground e algumas configuração já na aba global.*/
+
+.aside__saudacoes{
+    margin-top: -2rem;
+    color: var(--color-white);
+    font-size: var(--font-um);
+}
+
+.aside__termo_aceitacao{
+    margin-top: -1rem;
+    flex: 1;  
+    font-size: var(--font-menor); 
+    color: var(--color-bg);
+}
+
+.aceitacao__aside {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+/* voltar e editar a caixa do input */
+.checkbox__input{
+    width: 1rem;  
+    height: 1rem;  
+}
+
+/* faltaaa alinhar o botão pra cima, não to conseguindo */
+.btn__cadastrar{
+    align-self: center;
+    width: 70%;
+    height: 3rem;
+    background-color: var(--color-grey);
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.2);
+    transition: .5s;
+}
+.btn__cadastrar a{
+    color: var(--color-white);
+    font-size: var(--font-details);
+    font-weight: 700;
+}
+
+.btn__cadastrar:hover{
+    scale: 1.05;
+}
+
+
+/* TITULO PAGINA */
+#cadastro__title{
+    width: 72vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+/* --------------INPUTSSSS------------- */
+.cadastrar__title{
+    font-size:  var(--font-dois);
+    font-weight: 700;
+    color: var(--color-red);
+    margin-inline: 2rem;
+}
+
+.destaque__red{
+    color: var(--color-red);
+}
+
+.input__cadastrar {
+    display: flex;
+    flex-direction: column;
+}
+
+.input__cadastrar_container{
+    display: grid;
+    grid-template-columns: 3fr .5fr;
+    gap: 1rem;
+    margin-inline: 2rem;
+
+}
+
+.container__initial{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding-inline: 1rem;
+    gap: .5rem;
+}
+
+.cadastrar__title{
+    font-size: var(--font-dois);
+}
+
+.input__cadastrar label {
+    font-size: var(--font-um);
+}
+
+/* ------INPUS DE ACESSO------- */
+
+#dados__acesso{
+    margin-top: 1rem;
+}
+
+.input__dadosacesso_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-inline: 2rem;
+    padding-inline: 1rem;
+}
+
+label span {
+    color: var(--color-red);
+    font-weight: 700;
+}
+
+.aceitacao__details{
+    color: var(--color-bg);
+    text-decoration: underline;
+}
