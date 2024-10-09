@@ -23,11 +23,6 @@
     right: 0;
   }
   
-  h1{
-    font-size: var(--font-seis);
-    text-align: center;
-  }
-  
   .detalhe__bemvindo{
     text-align: center;
     font-size: var(--font-dois);
