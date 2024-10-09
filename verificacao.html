@@ -4,39 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Verificação</title>
-    <link rel="stylesheet" href="src/css/verificacao.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 <body>
-    
-    <section class="bg__fundo">  
-        <aside class="rigth__bem_vindo">
-            
-    
-        <div class="container">
-            <div class="left-side">
-                <button class="icone-voltar">
-                    <svg class="seta-voltar" xmlns="http://www.w3.org/2000/svg" width="13" height="20" viewBox="0 0 13 20" fill="none">
-                        <path d="M0.44264 8.93783L8.99661 0.440487C9.58784 -0.146829 10.5439 -0.146829 11.1288 0.440487L12.5503 1.85255C13.1415 2.43986 13.1415 3.38957 12.5503 3.97063L6.49332 10L12.5566 16.0231C13.1478 16.6104 13.1478 17.5601 12.5566 18.1412L11.1351 19.5595C10.5439 20.1468 9.58784 20.1468 9.0029 19.5595L0.448929 11.0622C-0.148591 10.4749 -0.148591 9.52515 0.44264 8.93783Z" fill="#CF4647"/>
-                    </svg>
-                </button>
-                <img alt="Logo Sabor Solidário">
-                <h1>Bem-vindo de volta!</h1>
-                <p>Já tem cadastro? Acesse sua conta agora mesmo.</p>
-                <button class="botao-entrar"><p class="frase-botao-entrar">Entrar</p></button>
+    <div class="bg__fundo">
+        <div class="left-side">
+            <div class="seta__voltar"> 
+                <a href="/index.html">
+                    <i class="fa-solid fa-circle-left seta-voltar"></i>
+                </a>
             </div>
-            <div class="right-side">
-                <div class="alinhar">
-                    <h2 class="mensagem-cadastro buttons">Cadastre-se</h2>
-                    <p> Você pode ajudar a causa...</p>
-                    <div class="buttons">
-                        <button class="restaurant"> <p class="frase-botao-entrar">Clique aqui</p> </button>
-                        <button class="volunteer"> <p class="frase-botao-entrar">Clique aqui</p></button>
-                    </div>
-                </div>    
-            </div>
+            <img class="logo-sabor" src="/src/images/logo red.png" alt="Logo Sabor Solidário">
+            <h1>Bem-vindo de volta!</h1>
+            <p class="detalhe__bemvindo">Já tem cadastro? Acesse sua conta agora mesmo.</p>
+            <button class="botao-entrar"><a href="./login.html">Entrar</a></button>
         </div>
-    </section>
-    
+        <div class="right-side">
+            <div class="alinhar">
+                <h2 class="mensagem-cadastro">Cadastre-se</h2>
+                <hr>
+                <p class="frase-causa"> Você pode ajudar a causa clicando nos botões abaixo:</p>
+                <div class="buttons">
+                    <div class="buttons-restaurant">
+                        <p class="title">Restaurante</p>
+                        <p class="subfrase">Deseja doar alimentos</p>
+                        <button class="restaurant"><a href="./cadastro-restaurante.html">Clique aqui</a></button>
+                    </div>
+                    <div class="buttons-volunteer">
+                        <p class="title">Voluntário</p>
+                        <p class="subfrase">Deseja entregar as doações</p>
+                        <button class="volunteer"><a href="./cadastro-voluntario.html">Clique aqui</a></button>
+                
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
 </body>
 </html>
